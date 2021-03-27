@@ -1,0 +1,30 @@
+#intro {
+	height: 80vh;
+	padding: 0;
+	background-color: var(--pastel-blue);
+	display: flex;
+	align-items: center;
+}
+
+#intro .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#intro img {
+	width: 100%;
+}
+
+#intro p {
+	font-size: 2em;
+	padding-left: 2px;
+}
+
+.intro-left {
+	width: 40%;
+}
+
+.intro-right {
+	width: 50%;
+}

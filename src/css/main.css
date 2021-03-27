@@ -1,0 +1,75 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=B612&family=Inconsolata:wght@400;500&family=Vollkorn:wght@500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--light-background: #ebe8e7;
+	--pastel-red: #eeb9c5;
+	--pastel-orange: #fdc7bb;
+	--pastel-blue: #cae7e3;
+}
+
+:focus {
+	outline: none !important;
+}
+
+body {
+	background: var(--light-background);
+}
+
+a {
+	color: var(--pastel-red);
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+a:hover {
+	color: #8f6f76;
+	text-decoration: none;
+}
+
+p {
+	font-family: 'Inconsolata', sans-serif;
+}
+
+h1 {
+	font-family: 'Vollkorn', serif;
+	color: var(--pastel-red);
+	font-size: 4em;
+}
+
+h2 {
+	font-family: 'Vollkorn', serif;
+	color: var(--pastel-red);
+	font-size: 3em;
+}
+
+h3 {
+}
+
+section {
+	padding: 5vh;
+}
+
+.container {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1140px;
+}
+
+.flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.align-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
