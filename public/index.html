@@ -13,15 +13,9 @@
 
 		<!-- Bootsrap css -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-		<!-- jQuery -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<!-- Popper JS -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-		<!-- Bootstrap js -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 		<!-- css -->
 		<link rel="stylesheet" href="css/style.css">
-		
+
   	</head>
   	<body>
 		<div class="container">
@@ -34,19 +28,6 @@
 			</div>
 			-->
 			<nav class="navbar navbar-expand sticky-top">
-				<!--
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="index.html#projects">Projects</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="index.html#experience">Experience</a>
-					</li>
-				</ul>
-				-->
 				<ul class="navbar-nav navbar-center ml-auto mr-auto">
 					<li class="nav-item">
 						<a class="nav-link social" href="https://www.linkedin.com/in/filip-sikora-07ba8117b" target="_blank" data-toggle="tooltip" title="LinkedIn"><i class="lab la-linkedin"></i></a>
@@ -90,18 +71,18 @@
 					</div>
 					<div class="col-sm-3 mb-5">
 						<h5>TypeScript</h4>
-						<p>Proficient</p>
+						<p>Intermediate</p>
 					</div>
 					<div class="col-sm-3 mb-5">
 						<h5>React</h4>
 						<p>Intermediate</p>
 					</div>
+				</div>
+				<div class="row justify-content-between text-center">
 					<div class="col-sm-3 mb-5">
 						<h5>Next.js</h4>
 						<p>Intermediate</p>
 					</div>
-				</div>
-				<div class="row justify-content-between text-center">
 					<div class="col-sm-3 mb-5">
 						<h5>Python</h4>
 						<p>Intermediate</p>
@@ -110,6 +91,8 @@
 						<h5>Go</h4>
 						<p>Newbie</p>
 					</div>
+				</div>
+				<div class="row justify-content-between items-center text-center">
 					<div class="col-sm-3 mb-5">
 						<h5>Rust</h4>
 						<p>Newbie</p>
@@ -118,6 +101,9 @@
 						<h5>Linux</h4>
 						<p>Intermediate</p>
 					</div>
+					<div class="col-sm-3 mb-5" style="border:none;"></div>
+				</div>
+			</div>
 				</div>
 			</div>
 			<!--
@@ -150,43 +136,5 @@
 				</div>
 			</footer>
 		</div>
-		<!--
-    	<script>
-			$(document).ready(function(){
-  				$('[data-toggle="tooltip"]').tooltip();
-				respo();
-			});
-
-			$(document).scroll(function() {
-				if ($(this).scrollTop() > 208) {
-					$('.navbar').attr('class', 'navbar sticky-top navbar-expand justify-content-center');
-				}
-				else {
-					$('.navbar').attr('class', 'navbar sticky-top navbar-expand justify-content-center navbar-border');
-				}
-			});
-
-			$(window).resize(function() {
-        		respo();
-    		});
-
-			function respo() {
-        		var width = $(window).width();
-        		if (width > 1230) {
-            		$('.navbar > ul:nth-child(1)').show();
-					$('.navbar > ul:nth-child(2)').attr('class', 'navbar-nav navbar-right ml-auto');
-					$('.navbar').attr('class', 'navbar navbar-expand sticky-top');
-        		}
-        		if (width < 1230) {
-            		/**/
-        		}
-        		if (width < 574) {
-            		$('.navbar > ul:nth-child(1)').hide();
-					$('.navbar > ul:nth-child(2)').attr('class', 'navbar-nav');
-					$('.navbar').attr('class', 'navbar sticky-top navbar-expand justify-content-center navbar-border');
-        		}
-    		}
-    	</script>
-			-->
 	</body>
 </html>
